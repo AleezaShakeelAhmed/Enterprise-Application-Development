@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial Calculation Comparison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator-container">
+        <h1>Factorial Calculation Comparison</h1>
+        <button onclick="calculateWithoutWebWorker()">Calculate Without Web Worker</button>
+        <button onclick="calculateWithWebWorker()">Calculate With Web Worker</button>
+        <div class="result-container">
+            <div id="result-without-worker" class="result"></div>
+            <div id="result-with-worker" class="result"></div>
+        </div>
+    </div>
+    <script src="/JavaScript/main.js"></script>
+</body>
+</html>
